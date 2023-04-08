@@ -57,7 +57,7 @@ function win() {
         
     }
     else if(score_home<score_guest) {
-        let winner = "Team Guest"
+        let winner = "Team Away"
         document.getElementById("winner").textContent += winner;
     }
     else {
