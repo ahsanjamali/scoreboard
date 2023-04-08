@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1B244A;
+   
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: cursive;
+    color: #EEEEEE;
+    font-weight: bold;
+    
+}
+.container2{
+    color : #EEEEEE;
+    font-family : verdana;
+    
+}
+button {
+    background: none;
+    color: #9AABD8;
+}
+.win {
+    color : #EEEEEE;
+    font-family : cursive;
+    font-weight: bold;
+    margin-top:8%;
+    margin-left:9%;
+    margin-right:9%;
+    width:30%
+}
