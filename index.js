@@ -53,16 +53,16 @@ function win() {
     
     if(score_home>score_guest) {
         let winner = "Team Home";
-        document.getElementById("winner").textContent = "Winner :" + winner;
+        document.getElementById("winner").textContent = "Winner : " + winner;
         
     }
     else if(score_home<score_guest) {
         let winner = "Team Away"
-        document.getElementById("winner").textContent = "Winner :" + winner;
+        document.getElementById("winner").textContent = "Winner : " + winner;
     }
     else if(score_home==score_guest){
         let winner = "Draw";
-        document.getElementById("winner").textContent = "Winner :" + winner;
+        document.getElementById("winner").textContent = "Winner : " + winner;
     }
 }
 
